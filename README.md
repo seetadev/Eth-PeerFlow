@@ -15,14 +15,6 @@ When centralized systems fail — servers crash, APIs throttle, or banks freeze 
 
 ---
 
-## 🎥 Demo / Screencasts
-
-* **Hardhat v3 build:** [View Demo](https://drive.google.com/drive/u/0/folders/1kp8sITMyy5Ku3cliG-qtONZgY9bg75hC)
-* **Hedera integration:** [View Demo](https://drive.google.com/drive/folders/1-JJ_Qyo-FCsU3GJRMuVHu_1FfSQbRsKS?usp=sharing)
-* **PyUSD stable payments:** [View Demo](https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link)
-
----
-
 ## 🚨 Problem
 
 * **Centralized systems collapse under pressure** → outages and throttled APIs halt communication.
@@ -130,6 +122,13 @@ Enables stable, predictable humanitarian finance.
 * Cross-border accessibility and programmable settlement layer
 
 ---
+
+## 🎥 Demo / Screencasts
+
+* **Hardhat v3 build:** [View Demo](https://drive.google.com/drive/u/0/folders/1kp8sITMyy5Ku3cliG-qtONZgY9bg75hC)
+* **Hedera integration:** [View Demo](https://drive.google.com/drive/folders/1-JJ_Qyo-FCsU3GJRMuVHu_1FfSQbRsKS?usp=sharing)
+* **PyUSD stable payments:** [View Demo](https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link)
+
 
 ## 🛠️ Future Improvements
 
