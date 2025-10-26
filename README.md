@@ -1,157 +1,142 @@
-# Eth PeerFlow
 
-**Py-libp2p Mesh Orchestration Layer for Commerce & DeFi**
+# 🌐 **Eth PeerFlow**
 
-EthPeerFlow is a Python-based peer-to-peer (P2P) mesh network designed for decentralized commerce and DeFi applications. Built on top of **py-libp2p**, it allows Ethereum-compatible smart contracts, tokenized assets, and off-chain commerce systems to communicate in a secure, modular, and extensible P2P network.
-
-EthPeerFlow enables developers to orchestrate decentralized mesh networks that handle peer discovery, transaction propagation, and tokenized asset exchanges with low-latency, fault-tolerant connectivity.
+### *Decentralized Emergency Coordination and Payment Network using PyUSD | Hedera | Hardhat v3 | libp2p | Filecoin | Ethereum*
 
 ---
 
-## 🚀 Features
+## 🧭 Overview
 
-* **Decentralized P2P Mesh:** Built with py-libp2p for reliable peer discovery, messaging, and routing.
-* **Ethereum & DeFi Integration:** Seamless interaction with Ethereum smart contracts for tokenized payments, escrow, and on-chain logic.
-* **Stablecoin Support:** Supports PyUSD for off-chain commerce settlements and stable-value transfers.
-* **Cross-Ledger Orchestration:** Integration with Hedera Hashgraph and other partner protocols for hybrid DLT interoperability.
-* **Secure & Modular:** End-to-end encryption of messages, pluggable transport layers (TCP, QUIC, WebRTC), and modular discovery mechanisms.
-* **Extensible for Commerce & DeFi Apps:** Ideal for decentralized marketplaces, DeFi applications, and real-time P2P payment channels.
+**Eth PeerFlow** is a multi-chain, trustless coordination network that connects **emergency responders, healthcare providers, and TPAs (Third-Party Administrators)** through decentralized communication, verified incident reporting, and programmable payments.
 
----
+When centralized systems fail — servers crash, APIs throttle, or banks freeze — **Eth PeerFlow** keeps coordination alive via **py-libp2p peer-to-peer networking**, **Hedera smart contracts**, and **PayPal USD (PyUSD)** stablecoin payments.
 
-## 💻 How It’s Made
-
-EthPeerFlow is a Python project built with a focus on modularity, interoperability, and real-world usability in decentralized commerce:
-
-1. **Core Networking:**
-
-   * **py-libp2p** forms the backbone of the mesh network.
-   * Supports QUIC, TCP, and WebRTC transports for flexible deployment scenarios.
-   * Implements Gossipsub v1.1 for efficient pub-sub messaging and peer scoring.
-
-2. **Smart Contract Integration:**
-
-   * Connects to Ethereum via **web3.py** to handle smart contract interactions.
-   * Facilitates token swaps, escrow transactions, and DeFi logic on-chain.
-
-3. **Partner Protocols:**
-
-   * **PyUSD:** Enables stablecoin settlements for commerce use-cases.
-   * **Hedera:** Cross-ledger interoperability for high-throughput payment channels.
-   * Other partners provide off-chain or hybrid services that plug directly into the network.
-
-4. **Orchestration Layer:**
-
-   * EthPeerFlow orchestrates P2P connections, manages mesh topology, and abstracts away low-level network complexity.
-   * Includes automated peer discovery, retries, and topology optimization for commercial-grade reliability.
-
-5. **Hacky/Notable Implementations:**
-
-   * Custom stream lifecycle tracking for robust handling of network partitions and reconnects.
-   * Dynamic transport switching: peers can swap QUIC, TCP, or WebRTC transport at runtime without disrupting ongoing transactions.
-   * Modular discovery allows integration with both DHT-based peer-finding (BitTorrent DHT) and enterprise partner-specific discovery services.
+> 🧩 Built with: **Hardhat v3 + Hedera + PyUSD + libp2p + Filecoin/IPFS**
 
 ---
 
-## 🛠 Tech Stack
+## 🎥 Demo / Screencasts
 
-* **Python 3.11+**
-* **py-libp2p** – Core P2P networking layer
-* **web3.py** – Ethereum smart contract interactions
-* **Hedera SDK (Python)** – Cross-ledger interoperability
-* **PyUSD SDK** – Stablecoin payment integration
-* **asyncio / anyio** – Asynchronous networking and concurrency
-* **Docker** – Deployment and reproducible environments
-* **pytest / tox** – Testing framework
+* **Hardhat v3 build:** [View Demo](https://drive.google.com/drive/u/0/folders/1kp8sITMyy5Ku3cliG-qtONZgY9bg75hC)
+* **Hedera integration:** [View Demo](https://drive.google.com/drive/folders/1-JJ_Qyo-FCsU3GJRMuVHu_1FfSQbRsKS?usp=sharing)
+* **PyUSD stable payments:** [View Demo](https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link)
 
 ---
 
-## 📈 Use Cases
+## 🚨 Problem
 
-* **Decentralized Marketplaces:** Mesh-based P2P networks for buying/selling digital and physical goods without central servers.
-* **DeFi Payment Channels:** Tokenized payments and microtransactions with stablecoin support (PyUSD) for real-world commerce.
-* **Cross-Ledger Transactions:** Hedera integration allows hybrid DeFi workflows spanning multiple ledgers.
-* **Private Trading Networks:** Businesses can run private P2P trading meshes for low-latency settlements.
-
----
-
-## 🏗 Architecture Overview
-
-```
-            +----------------+
-            |  Ethereum L1   |
-            +--------+-------+
-                     |
-            +--------v-------+
-            | Smart Contracts|
-            +--------+-------+
-                     |
-        +------------v------------+
-        |   EthPeerFlow Mesh      |
-        |  py-libp2p Network     |
-        |  QUIC / TCP / WebRTC   |
-        +------------+------------+
-                     |
-      +--------------+----------------+
-      | Partner Integrations          |
-      | - PyUSD (Stablecoin)          |
-      | - Hedera (Cross-Ledger)       |
-      | - Other DLT / off-chain tools |
-      +--------------------------------+
-```
+* **Centralized systems collapse under pressure** → outages and throttled APIs halt communication.
+* **Medical billing and coordination are slow** → manual approvals and intermediaries delay care.
+* **Trust and transparency are missing** → no verifiable record of responders or fund transfers.
+* **No resilient alternative exists** → emergency networks cannot stay online under real-world stress.
 
 ---
 
-## 🔧 Getting Started
+## 💡 Solution
 
-1. **Clone the repository:**
+**Eth PeerFlow** is a **decentralized, trustless communication and payment layer** for emergency coordination.
 
-```bash
-git clone https://github.com/your-org/ethpeerflow.git
-cd ethpeerflow
-```
-
-2. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run a node:**
-
-```bash
-python run_node.py --config config.yaml
-```
-
-4. **Connect to Ethereum / Hedera / PyUSD:**
-
-* Configure network credentials in `config.yaml`.
-* Start smart contract listeners and mesh synchronization.
-
-5. **Test the mesh network:**
-
-```bash
-pytest tests/
-```
+* **Peer-to-Peer Coordination:** Built on **py-libp2p** for resilient, censorship-resistant messaging.
+* **Programmable Payments:** Smart contracts on **Ethereum + Hardhat v3** manage billing and disbursements.
+* **Stable, Borderless Finance:** **PayPal USD (PyUSD)** and **Hedera tokens** enable instant, low-fee payments.
+* **Cross-Chain Verifiability:** Anchors proofs and invoices across **Filecoin/IPFS** for permanence and auditability.
 
 ---
 
-## 🤝 Partners & Contributions
+## 🧩 System Architecture
 
-* **PyUSD:** Provides stablecoin payment rails for commerce workflows.
-* **Hedera Hashgraph:** Enables cross-ledger payments and high-throughput hybrid transactions.
-* **Other Partners:** Contribute to off-chain discovery, decentralized storage, and interoperability modules.
+**1️⃣ P2P Communication (py-libp2p)**
+Resilient mesh for hospitals, responders, and TPAs — operates even when cloud APIs fail.
+
+**2️⃣ Decentralized Storage (Filecoin + IPFS)**
+Incident data, proofs, and invoices are stored immutably with IPFS CIDs.
+
+**3️⃣ Smart Contracts (Hardhat v3 + ERC-20)**
+Implements `PPT Token` and `InvoiceManager` for trustless settlements.
+
+**4️⃣ Stable Payments (PyUSD + Hedera)**
+Instant PyUSD or Hedera-token payouts ensure predictable, real-world value.
+
+**5️⃣ Verification & Auditability**
+Every coordination event is timestamped, signed, and verifiable across **Ethereum**, **Filecoin**, and **Hedera**.
 
 ---
 
-## 📜 License
+## ⚙️ Tech Stack
 
-MIT License – See `LICENSE` for details.
+| Layer               | Technology                                               |
+| ------------------- | -------------------------------------------------------- |
+| Networking          | py-libp2p (QUIC + WebRTC)                                |
+| Smart Contracts     | Solidity (ERC-20, Hardhat v3)                            |
+| Blockchain Networks | Ethereum (Sepolia), Hedera Testnet, Filecoin Calibration |
+| Stablecoin Payments | PayPal USD (PyUSD)                                       |
+| Storage             | IPFS / Filecoin                                          |
+| Frontend            | React + Wagmi + RainbowKit + Vercel                      |
+| DevOps              | Docker + Canteen                                         |
+| Security            | Token-gated access + on-chain verification               |
 
 ---
 
-## 🌟 Acknowledgements
+## 🔗 Deployments
 
-Special thanks to contributors from the py-libp2p, Hedera, and PyUSD communities for guidance and collaborative integration efforts.
+| Component                | Network        | Link                                                                                  |
+| ------------------------ | -------------- | ------------------------------------------------------------------------------------- |
+| **PPT Token Contract**   | Hedera Testnet | [View on HashScan](https://hashscan.io/testnet/contract/0.0.7134953/abi)              |
+| **Incident Contract**    | Hedera Testnet | [View on HashScan](https://hashscan.io/testnet/contract/0.0.7135209)                  |
+| **Frontend App**         | —              | [road-incident-dapp-hedera.vercel.app](https://road-incident-dapp-hedera.vercel.app/) |
+| **EVM Contract Address** | —              | `0x07Bc74258668113A0116ac51FB3053108a633DaD`                                          |
+
+---
+
+## 🧠 How It Works
+
+1️⃣ **Emergency occurs.** Centralized networks fail.
+2️⃣ **Peers connect.** Responders auto-link through py-libp2p mesh.
+3️⃣ **Incidents logged.** Data stored immutably on Filecoin/IPFS.
+4️⃣ **Payments flow.** Smart contracts trigger PyUSD/Hedera disbursements.
+5️⃣ **Transparency ensured.** Every action is verifiable across chains.
+
+---
+
+## 🧱 Sponsored Tech Usage
+
+### **🟣 Hardhat v3**
+
+Used for smart contract development, deployment, and verification.
+
+* Cross-chain orchestration with Ethereum (Sepolia)
+* Automated debugging and console verification
+* Integration with Wagmi & RainbowKit
+* Upgradeable contract deployments for rapid iteration
+
+### **🟢 Hedera Hashgraph**
+
+Provides trust, transparency, and auditability for emergency reporting.
+
+* Records verified incidents and rewards responders
+* Automates reputation scoring via smart contracts
+* Anchors cross-chain proofs with Ethereum + Filecoin
+
+### **💵 PayPal USD (PyUSD)**
+
+Enables stable, predictable humanitarian finance.
+
+* Low-volatility, instant payments for responders & patients
+* On-chain invoice verification and reimbursements
+* Cross-border accessibility and programmable settlement layer
+
+---
+
+## 🛠️ Future Improvements
+
+* Add **2FA and recovery options** for decentralized wallets.
+* Enhance **security around social logins and identity linkage**.
+* Expand **multi-chain bridges** for Polygon and Filecoin Mainnet.
+
+
+## 🌍 Vision
+
+To create a **trustless emergency coordination fabric** where communication, billing, and finance never stop — even when the world does.
+By merging **libp2p networking, Hedera trust, and PyUSD stability**, Eth PeerFlow shows how **Web3 technology can save real lives through transparency, speed, and decentralization.**
 
 
