@@ -91,9 +91,13 @@ Every coordination event is timestamped, signed, and verifiable across **Ethereu
 ## 🧠 How It Works
 
 1️⃣ **Emergency occurs.** Centralized networks fail.
+
 2️⃣ **Peers connect.** Responders auto-link through py-libp2p mesh.
+
 3️⃣ **Incidents logged.** Data stored immutably on Filecoin/IPFS.
+
 4️⃣ **Payments flow.** Smart contracts trigger PyUSD/Hedera disbursements.
+
 5️⃣ **Transparency ensured.** Every action is verifiable across chains.
 
 ---
