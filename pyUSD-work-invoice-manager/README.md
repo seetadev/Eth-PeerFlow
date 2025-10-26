@@ -13,9 +13,9 @@ This integration demonstrates how a **regulated, dollar-backed stablecoin** can 
 
 ---
 
-## 🎥 Demo / Screencast
+## PyUSD Usage Instructions, Demo & Screencast
 
-**PyUSD Payment Flow Demo:**
+**PyUSD Payment Flow Demo & Project Instructions:**
 [Watch Here →](https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link)
 
 ---
