@@ -1,8 +1,65 @@
-# 📦 PPT-FIL-Token (Hardhat v3)
+# ⚙️ **Hardhat v3 — Smart Contract Infrastructure for Eth PeerFlow**
+
+**Eth PeerFlow** uses **Hardhat v3** as the **core development and deployment framework** for its smart contract infrastructure — powering **medical billing**, **emergency payments**, and **tokenized access** across Ethereum networks.
+
+Hardhat’s modular, developer-friendly design made it possible to **rapidly prototype, test, and verify** ERC-20 tokens (**PPT Token**) and **PyUSD invoice settlement contracts** within a unified workflow. Its integration with Ethereum testnets, modern dev tooling, and automated verification enabled Eth PeerFlow to move from concept to production-ready prototype within days.
+
+---
+
+## 🎥 Demo / Screencast
+
+[View Hardhat v3 Deployment Demo →](https://drive.google.com/drive/u/0/folders/1kp8sITMyy5Ku3cliG-qtONZgY9bg75hC)
+
+---
+
+## 🧠 Core Achievements with Hardhat v3
+
+### ✅ Cross-Chain Orchestration
+
+* Used Hardhat’s network configuration plugins for **Ethereum (Sepolia)**.
+* Deployed **PPT ERC-20 Token** and **PyUSD-based invoice manager** across test networks.
+* Enabled flexible deployment scripts with Ignition modules for multi-environment use.
+
+### 🧩 Automated Testing & Verification
+
+* Leveraged Hardhat’s **task runner** and **console** for automated contract verification and debugging.
+* Comprehensive test coverage for token issuance, invoice logic, and settlement workflows.
+* Integrated **Viem** for modern Ethereum interactions.
+
+### 🧠 Front-End Integration
+
+* Connected with **Wagmi**, **RainbowKit**, and **React** to enable decentralized front-end interactions.
+* Supported real-time invoice status updates and payer confirmations through smart contract event listeners.
+
+### 🔁 Upgradeable Deployments
+
+* Streamlined deployment of **upgradeable smart contracts** during hackathon iteration.
+* Rapid feedback loops between backend (Hardhat) and frontend (Next.js) environments.
+
+---
+
+## 🧱 How It Fits Into Eth PeerFlow
+
+Hardhat v3 serves as the **execution and verification backbone** of Eth PeerFlow’s decentralized system.
+It coordinates contract logic between **PyUSD settlements**, **PPT tokenized access**, and **libp2p-powered coordination layers**, ensuring that every transaction, invoice, and disbursement remains transparent, traceable, and fault-tolerant.
+
+By combining **Hardhat’s robust development tooling** with **Py-libp2p networking** and **PyUSD stable payments**, Eth PeerFlow showcases how mission-critical decentralized systems can be built with precision, security, and trust.
+
+
+## 🔧 Key Features and Highlights
+
+* **Framework:** Hardhat v3 (ESM Modules + Ignition)
+* **Libraries:** OpenZeppelin Contracts 5.x, Viem
+* **Languages:** Solidity, TypeScript
+* **Integrations:** Wagmi + RainbowKit for frontend, Py-libp2p for backend data exchange
+* **Verification:** Automated via Hardhat tasks and Etherscan plugins
+
+
+## PPT-FIL-Token (Hardhat v3)
 
 **PPT-FIL-Token** is an **ERC-20 utility token** with **medical invoice management** capabilities. This project demonstrates token-gated access for dApps and includes a complete medical invoice contract system.
 
-> **🎉 Recently migrated to Hardhat v3** for improved performance and modern tooling support.
+> **🎉 Using Hardhat v3** for improved performance and modern tooling support.
 
 ---
 
@@ -96,6 +153,20 @@ npx hardhat run scripts/deploy.js --network arbitrumSepolia
 
 ---
 
+## 🌐 Description of Supported Networks
+
+The PPT Token and Invoice Settlement Contracts are deployed and tested across multiple Ethereum-compatible networks.
+See full configuration and supported environments here:
+👉 [**Supported Networks (PPT Token)**](https://github.com/seetadev/Eth-PeerFlow/tree/main/hardhat-v3-ppt-token#-supported-networks)
+
+| Network                  | Chain           | Purpose                              |
+| ------------------------ | --------------- | ------------------------------------ |
+| **Ethereum Sepolia**     | EVM Testnet     | Primary testing and verification     |
+| **Filecoin Calibration** | FEVM Testnet    | Data persistence and storage testing |
+| **Optimism Sepolia**     | Layer-2 Testnet | Scalable settlements                 |
+| **Arbitrum Sepolia**     | Layer-2 Testnet | Fast payment confirmations           |
+
+
 ## 🌐 Supported Networks
 
 The project is configured for multiple networks:
@@ -109,6 +180,7 @@ The project is configured for multiple networks:
 | Optimism Mainnet | https://mainnet.optimism.io | 10 | Mainnet |
 | Arbitrum Sepolia | https://sepolia-rollup.arbitrum.io/rpc | 421614 | Testnet |
 | Celo Alfajores | https://alfajores-forno.celo-testnet.org | 44787 | Testnet |
+
 
 ---
 
@@ -180,3 +252,8 @@ Pull requests and feature suggestions are welcome. Please open an issue to discu
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+##  Hardhat v3 x Eth PeerFlow
+
+Hardhat v3 provided Eth PeerFlow with the **speed, flexibility, and reliability** needed to build a real-time, cross-chain healthcare coordination system.
+Its modern developer experience, strong plugin ecosystem, and compatibility with PyUSD and PPT token workflows made it an essential foundation for deploying **trustless financial and coordination infrastructure** on Ethereum.
