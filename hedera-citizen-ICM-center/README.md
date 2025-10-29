@@ -4,6 +4,8 @@
 
 🎥 **Demo / Screencast:** [https://drive.google.com/drive/folders/1-JJ_Qyo-FCsU3GJRMuVHu_1FfSQbRsKS?usp=sharing](https://drive.google.com/drive/folders/1-JJ_Qyo-FCsU3GJRMuVHu_1FfSQbRsKS?usp=sharing)
 
+🎥 [Eth-PeerFlow x Hedera Comprehensive Demo Video](https://youtu.be/38yzN4IEaec)
+
 ---
 
 ## ⚙️ How It Works
