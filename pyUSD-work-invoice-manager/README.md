@@ -34,6 +34,10 @@ Eth PeerFlow’s PyUSD module is implemented using **Hardhat v3 smart contracts*
 
 ### 🔑 Key Components
 
+
+![PyUSD Contract Attributes](https://raw.githubusercontent.com/seetadev/Eth-PeerFlow/main/pyUSD-work-invoice-manager/PyUSD-contract-attributes.png)
+
+
 #### 1. **InvoiceManager.sol**
 
 * Creates, approves, and settles invoices.
