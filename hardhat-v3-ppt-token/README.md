@@ -10,6 +10,8 @@ Hardhat’s modular, developer-friendly design made it possible to **rapidly pro
 
 [View Hardhat v3 Deployment Demo →](https://drive.google.com/drive/u/0/folders/1kp8sITMyy5Ku3cliG-qtONZgY9bg75hC)
 
+[Eth-PeerFlow x Hardhat Comprehensive Demo Video](https://youtu.be/38yzN4IEaec)
+
 ---
 
 ## 🧠 Core Achievements with Hardhat v3
