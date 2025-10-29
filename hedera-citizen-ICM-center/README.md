@@ -235,11 +235,17 @@ RewardPaid(reporter, amount)
 ## 📋 Roadmap
 
 ✅ Mobile-responsive UI
+
 ✅ Multi-language support
+
 ✅ Photo/video evidence handling
+
 📍 GPS integration
+
 🗂 Incident categorization
+
 📊 Advanced analytics dashboards
+
 🚑 Integrations with emergency services
 🌎 Mainnet deployment
 
