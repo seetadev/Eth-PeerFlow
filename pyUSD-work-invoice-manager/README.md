@@ -16,6 +16,8 @@ During crises where centralized networks or banking rails fail, our **peer‑to�
 
 🎥 **Demo / Screencast:** [https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link](https://drive.google.com/drive/folders/1R6Z0DItHK6L3KKyDEzptlqfQF_moayqh?usp=drive_link)
 
+🎥 [Eth-PeerFlow x PaypalUSD(PyUSD) Comprehensive Demo Video](https://youtu.be/38yzN4IEaec)
+
 Eth PeerFlow showcases how a **regulated, dollar‑backed stablecoin** can power:
 
 * Predictable, low‑volatility medical payouts,
