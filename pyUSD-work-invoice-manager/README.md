@@ -28,6 +28,10 @@ Eth PeerFlow showcases how a **regulated, dollar‑backed stablecoin** can power
 
 Eth PeerFlow’s PyUSD module is implemented using **Hardhat v3 smart contracts** deployed on **Ethereum Sepolia**. It powers a **trustless invoice + reimbursement workflow** across decentralized networks.
 
+
+![PyUSD Invoice Flow](https://raw.githubusercontent.com/seetadev/Eth-PeerFlow/main/pyUSD-work-invoice-manager/PyUSD-Invoice-user-flow-diagram.png)
+
+
 ### 🔑 Key Components
 
 #### 1. **InvoiceManager.sol**
